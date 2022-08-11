@@ -1,0 +1,17 @@
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\bin\Debug\net6.0-windows\Tracked.exe
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\bin\Debug\net6.0-windows\Tracked.deps.json
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\bin\Debug\net6.0-windows\Tracked.runtimeconfig.json
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\bin\Debug\net6.0-windows\Tracked.dll
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\bin\Debug\net6.0-windows\Tracked.pdb
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.csproj.AssemblyReference.cache
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.csproj.GenerateResource.cache
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.AssemblyInfoInputs.cache
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.AssemblyInfo.cs
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.csproj.CoreCompileInputs.cache
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.dll
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\refint\Tracked.dll
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.pdb
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.genruntimeconfig.cache
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\ref\Tracked.dll
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.Launch_Form.resources
