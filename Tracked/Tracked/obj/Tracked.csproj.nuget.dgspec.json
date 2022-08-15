@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\bfosh\\Documents\\GitHub\\Tracked\\Tracked\\Tracked\\Tracked.csproj": {}
+    "C:\\Users\\Brendan0222\\Documents\\GitHub\\Tracked\\Tracked\\Tracked\\Tracked.csproj": {}
   },
   "projects": {
-    "C:\\Users\\bfosh\\Documents\\GitHub\\Tracked\\Tracked\\Tracked\\Tracked.csproj": {
+    "C:\\Users\\Brendan0222\\Documents\\GitHub\\Tracked\\Tracked\\Tracked\\Tracked.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\bfosh\\Documents\\GitHub\\Tracked\\Tracked\\Tracked\\Tracked.csproj",
+        "projectUniqueName": "C:\\Users\\Brendan0222\\Documents\\GitHub\\Tracked\\Tracked\\Tracked\\Tracked.csproj",
         "projectName": "Tracked",
-        "projectPath": "C:\\Users\\bfosh\\Documents\\GitHub\\Tracked\\Tracked\\Tracked\\Tracked.csproj",
-        "packagesPath": "C:\\Users\\bfosh\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\bfosh\\Documents\\GitHub\\Tracked\\Tracked\\Tracked\\obj\\",
+        "projectPath": "C:\\Users\\Brendan0222\\Documents\\GitHub\\Tracked\\Tracked\\Tracked\\Tracked.csproj",
+        "packagesPath": "C:\\Users\\Brendan0222\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brendan0222\\Documents\\GitHub\\Tracked\\Tracked\\Tracked\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "E:\\VS\\SDK\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\bfosh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Brendan0222\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -61,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

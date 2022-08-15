@@ -1,3 +1,5 @@
+using Tracked.Forms;
+
 namespace Tracked
 {
     public partial class Launch_Form : Form
@@ -18,6 +20,12 @@ namespace Tracked
         private void NewUserAccount(object sender, EventArgs e)
         {
             // Open the form for creating a new user account in the program.
+            using (New_User_Form nuf = new New_User_Form())
+            {
+                this.Opacity = .75;
+                nuf.ShowDialog();
+            }
+            this.Opacity = 1;
         }
 
         private void Authenticate(object sender, EventArgs e)
