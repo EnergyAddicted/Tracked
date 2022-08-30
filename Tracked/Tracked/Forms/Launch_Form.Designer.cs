@@ -74,8 +74,8 @@
             this.LaunchMsg_Lbl.Size = new System.Drawing.Size(423, 80);
             this.LaunchMsg_Lbl.TabIndex = 2;
             this.LaunchMsg_Lbl.Text = "Welcome to Tracked! \r\nThis software is still a WIP. \r\nPlease report any issues to" +
-    " the Issues section on GitHub.\r\nFree low voltage project management... \r\n...in a" +
-    " modern, yet retro style!\r\n";
+    " the Issues section on GitHub.\r\nFree budget management... \r\n...in a modern, yet " +
+    "retro style!\r\n";
             // 
             // NewUser_Btn
             // 

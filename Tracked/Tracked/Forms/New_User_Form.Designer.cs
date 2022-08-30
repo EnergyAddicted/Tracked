@@ -40,24 +40,26 @@
             this.firstNameInput = new System.Windows.Forms.TextBox();
             this.lastNameInput = new System.Windows.Forms.TextBox();
             this.emailInput = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // submitBtn
             // 
-            this.submitBtn.Location = new System.Drawing.Point(12, 212);
+            this.submitBtn.Location = new System.Drawing.Point(12, 252);
             this.submitBtn.Name = "submitBtn";
             this.submitBtn.Size = new System.Drawing.Size(75, 23);
-            this.submitBtn.TabIndex = 5;
+            this.submitBtn.TabIndex = 6;
             this.submitBtn.Text = "Submit";
             this.submitBtn.UseVisualStyleBackColor = true;
             this.submitBtn.Click += new System.EventHandler(this.SubmitNewAccount);
             // 
             // cancelBtn
             // 
-            this.cancelBtn.Location = new System.Drawing.Point(100, 212);
+            this.cancelBtn.Location = new System.Drawing.Point(100, 252);
             this.cancelBtn.Name = "cancelBtn";
             this.cancelBtn.Size = new System.Drawing.Size(75, 23);
-            this.cancelBtn.TabIndex = 6;
+            this.cancelBtn.TabIndex = 7;
             this.cancelBtn.Text = "Cancel";
             this.cancelBtn.UseVisualStyleBackColor = true;
             this.cancelBtn.Click += new System.EventHandler(this.Close);
@@ -83,7 +85,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 89);
+            this.label3.Location = new System.Drawing.Point(12, 129);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(77, 14);
             this.label3.TabIndex = 4;
@@ -92,7 +94,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 129);
+            this.label4.Location = new System.Drawing.Point(12, 169);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(70, 14);
             this.label4.TabIndex = 5;
@@ -101,7 +103,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(12, 169);
+            this.label5.Location = new System.Drawing.Point(12, 209);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(42, 14);
             this.label5.TabIndex = 6;
@@ -123,30 +125,48 @@
             // 
             // firstNameInput
             // 
-            this.firstNameInput.Location = new System.Drawing.Point(12, 106);
+            this.firstNameInput.Location = new System.Drawing.Point(12, 146);
             this.firstNameInput.Name = "firstNameInput";
             this.firstNameInput.Size = new System.Drawing.Size(163, 20);
-            this.firstNameInput.TabIndex = 2;
+            this.firstNameInput.TabIndex = 3;
             // 
             // lastNameInput
             // 
-            this.lastNameInput.Location = new System.Drawing.Point(12, 146);
+            this.lastNameInput.Location = new System.Drawing.Point(12, 186);
             this.lastNameInput.Name = "lastNameInput";
             this.lastNameInput.Size = new System.Drawing.Size(163, 20);
-            this.lastNameInput.TabIndex = 3;
+            this.lastNameInput.TabIndex = 4;
             // 
             // emailInput
             // 
-            this.emailInput.Location = new System.Drawing.Point(12, 186);
+            this.emailInput.Location = new System.Drawing.Point(12, 226);
             this.emailInput.Name = "emailInput";
             this.emailInput.Size = new System.Drawing.Size(163, 20);
-            this.emailInput.TabIndex = 4;
+            this.emailInput.TabIndex = 5;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(12, 106);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(163, 20);
+            this.textBox1.TabIndex = 2;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(12, 89);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(119, 14);
+            this.label6.TabIndex = 8;
+            this.label6.Text = "Password (Again)";
             // 
             // New_User_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(187, 247);
+            this.ClientSize = new System.Drawing.Size(187, 286);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.emailInput);
             this.Controls.Add(this.lastNameInput);
             this.Controls.Add(this.firstNameInput);
@@ -182,5 +202,7 @@
         private TextBox firstNameInput;
         private TextBox lastNameInput;
         private TextBox emailInput;
+        private TextBox textBox1;
+        private Label label6;
     }
 }
