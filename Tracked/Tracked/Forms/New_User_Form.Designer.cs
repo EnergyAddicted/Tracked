@@ -40,7 +40,7 @@
             this.firstNameInput = new System.Windows.Forms.TextBox();
             this.lastNameInput = new System.Windows.Forms.TextBox();
             this.emailInput = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.passwordConfirmation = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
@@ -144,12 +144,12 @@
             this.emailInput.Size = new System.Drawing.Size(163, 20);
             this.emailInput.TabIndex = 5;
             // 
-            // textBox1
+            // passwordConfirmation
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 106);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(163, 20);
-            this.textBox1.TabIndex = 2;
+            this.passwordConfirmation.Location = new System.Drawing.Point(12, 106);
+            this.passwordConfirmation.Name = "passwordConfirmation";
+            this.passwordConfirmation.Size = new System.Drawing.Size(163, 20);
+            this.passwordConfirmation.TabIndex = 2;
             // 
             // label6
             // 
@@ -165,7 +165,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 14F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(187, 286);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.passwordConfirmation);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.emailInput);
             this.Controls.Add(this.lastNameInput);
@@ -202,7 +202,7 @@
         private TextBox firstNameInput;
         private TextBox lastNameInput;
         private TextBox emailInput;
-        private TextBox textBox1;
+        private TextBox passwordConfirmation;
         private Label label6;
     }
 }

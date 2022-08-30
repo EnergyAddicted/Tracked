@@ -28,6 +28,31 @@ namespace Tracked.Forms
             // Called when the form is completed and submitted. Check to make sure all the fields are containing values, including 
             // a matching password. If all conditions are good, then submit a check for a valid new user. 
             // If an existing username/email is found, then cancel the user and inform. 
+
+            #region Checking for valid inputs before requesting a new account creation.
+            // Check for missing information...
+            if (
+                String.IsNullOrEmpty(usernameInput.Text) || 
+                String.IsNullOrEmpty(passwordInput.Text) ||
+                String.IsNullOrEmpty(passwordConfirmation.Text) ||
+                String.IsNullOrEmpty(firstNameInput.Text) ||
+                String.IsNullOrEmpty(lastNameInput.Text) ||
+                String.IsNullOrEmpty(emailInput.Text) 
+                )
+            {
+                MessageBox.Show("Please fill out all the fields in the form to submit.", "So close...");
+                return;
+            }
+
+            // Check to make sure the password matches...
+
+            if (passwordInput.Text != passwordConfirmation.Text)
+            {
+                MessageBox.Show("Passwords don't match.", "So close...");
+                return;
+            }
+            #endregion
+
         }
     }
 }
