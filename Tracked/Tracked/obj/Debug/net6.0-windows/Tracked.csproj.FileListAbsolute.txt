@@ -32,3 +32,4 @@ C:\Users\bfosh\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows
 C:\Users\bfosh\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.pdb
 C:\Users\bfosh\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.genruntimeconfig.cache
 C:\Users\bfosh\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\ref\Tracked.dll
+C:\Users\Brendan0222\Documents\GitHub\Tracked\Tracked\Tracked\obj\Debug\net6.0-windows\Tracked.Forms.New_User_Form.resources
