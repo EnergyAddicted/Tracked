@@ -1,3 +1,5 @@
+using Tracked.IO;
+
 namespace Tracked
 {
     public partial class Launch_Form : Form
@@ -27,6 +29,12 @@ namespace Tracked
             // If the authentication fails; inform the user - Track login attempts and timing. If more than five attempts in 10s, delay 
             // the next login attempt by 30s. This is to limit the usage of brute forcing and/or db traffic. 
             // If valid, hide the form, wipe the fields, and land on their dashboard. 
+
+        }
+
+        private void LaunchMsg_Lbl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
