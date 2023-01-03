@@ -1,4 +1,4 @@
-using Tracked.Forms;
+using Tracked.IO;
 
 namespace Tracked
 {
@@ -20,12 +20,6 @@ namespace Tracked
         private void NewUserAccount(object sender, EventArgs e)
         {
             // Open the form for creating a new user account in the program.
-            using (New_User_Form nuf = new New_User_Form())
-            {
-                this.Opacity = .75;
-                nuf.ShowDialog();
-            }
-            this.Opacity = 1;
         }
 
         private void Authenticate(object sender, EventArgs e)
@@ -35,6 +29,12 @@ namespace Tracked
             // If the authentication fails; inform the user - Track login attempts and timing. If more than five attempts in 10s, delay 
             // the next login attempt by 30s. This is to limit the usage of brute forcing and/or db traffic. 
             // If valid, hide the form, wipe the fields, and land on their dashboard. 
+
+        }
+
+        private void LaunchMsg_Lbl_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
